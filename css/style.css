@@ -101,3 +101,15 @@ footer.page-footer {
   color: coral;
   background-color: black;
 }
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
