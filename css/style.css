@@ -96,3 +96,8 @@ footer.page-footer {
   height: 100vh;
   background-size: cover;
 }
+
+.collection {
+  color: coral;
+  background-color: black;
+}
