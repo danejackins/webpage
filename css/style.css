@@ -107,9 +107,13 @@ a {
   text-decoration: none;
 }
 
-a:hover 
-{
+a:hover {
    color:#00A0C6; 
    text-decoration:none; 
    cursor:pointer;  
+}
+
+#train {
+  background-color: white;
+  color: #006dcc;
 }
