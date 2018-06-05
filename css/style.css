@@ -121,5 +121,10 @@ a:hover {
 }
 
 .indent {
-  text-indent: 0.25em;
+  text-indent: 0.35em;
 }
+
+/* .profile {
+  width: 100%;
+  height: auto;
+} */
