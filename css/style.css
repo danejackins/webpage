@@ -119,3 +119,7 @@ a:hover {
   background-color: white;
   color: #006dcc;
 }
+
+.indent {
+  text-indent: 0.25em;
+}
