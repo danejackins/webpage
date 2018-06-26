@@ -19,15 +19,19 @@
 <body style="background-color: black;">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Dane Jackins Professional Webpage</a>
-      <ul class="right hide-on-med-and-down">
+      <div class="flex_container">
+        <a id="logo-container" href="#" class="brand-logo">Dane Jackins Professional Webpage</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <ul id="nav-mobile" class="sidenav">
         <li><a href="index.html">Home Page</a></li>
         <li><a href="portfolio.html" class="active">Portfolio</a></li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -35,15 +39,15 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s12 m4 center">
+        <div class="col xs12 m4 center">
           <img src="images/gitbeer.png" alt="Git Beer screen shot" class="gallery">
           <a href="https://beccaharris.github.io/brewery-locator-app/" target="_blank" id="gitbeer" class="btn-large ubuntu">gitBeer</a>
         </div>
-        <div class="col s12 m4 center">
+        <div class="col xs12 m4 center">
           <img src="images/crystal-collector.jpg" alt="Crystal Collector screen shot" class="gallery">
           <a href="https://danejackins.github.io/crystal-collector/" target="_blank" id="crystal" class="btn-large krona">Crystal Collector</a>
         </div>
-        <div class="col s12 m4 center">
+        <div class="col xs12 m4 center">
           <img src="images/giftastic.png" alt="Gif generator screen shot" class="gallery">
           <a href="https://danejackins.github.io/GifTastic/" target="_blank" id="giftastic" class="btn-large bangers">GifTastic</a>
         </div>
@@ -66,5 +70,11 @@
       </div>
     </div>
   </div>
+  
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
 </body>
 </html>

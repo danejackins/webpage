@@ -124,7 +124,34 @@ a:hover {
   text-indent: 0.35em;
 }
 
-/* .profile {
+.nav-wrapper.container {
   width: 100%;
-  height: auto;
-} */
+}
+
+.white {
+  width: 100%;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex_container a.brand-logo {
+  display: block;
+  position: static;
+  margin-left: 15px;
+}
+
+.parallax-container {
+  height: 700px;
+}
+
+@media only screen and (max-width: 993px) {
+  .flex_container a.brand-logo {
+    position: absolute;
+    font-size: 150%;
+  }
+}
