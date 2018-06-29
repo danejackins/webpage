@@ -115,7 +115,7 @@ a:hover {
    cursor:pointer;  
 }
 
-#train {
+.train {
   background-color: white;
   color: #006dcc;
 }
